@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/ico/rs_school.ico">
     <title>CV</title>
 </head>
-<body>
-    
+<body>    
+    <header class="header">
+            <div class="header_container container">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#profile" class="nav_link">Profile</a></li>
+                        <li class="nav_item"><a href="#about_myself" class="nav_link">About myself</a></li>
+                        <li class="nav_item"><a href="#my_skills" class="nav_link">My skils</a></li>
+                        <li class="nav_item"><a href="#my_code" class="nav_link">My code</a></li>
+                        <li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li>
+                        <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                        <li class="nav_item"><a href="#languages" class="nav_link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main class="main">
+            <div class="container main_container">
+                <section class="section section_profile" id="profile">
+                            <div class="section_profile_title">
+                                <h1 class="section_title main_title">Mikhail <br> Belenchenko</h1>
+                                <h2 class="section_subtitle">Beginner front-end devoloper</h2>
+                                <h3 class="subtitle_contact">Contact me:</h3>
+                                  <div class="section_subtitle_contact">
+                                    <div class="section_contacts_list">
+                                        <ul class="contacts_list">
+                                            <li class="contacts_item phone"><a class="number" href="tel:+375291097169">+375291097169</a></li>
+                                            <li class="contacts_item vk"><a class="vkontakte" href="https://vk.com/williamforest"
+                                                    target="_blank">WilliamForest</a></li>
+                                            <li class="contacts_item mail"><a class="mail" href="mailto"></a>Michel.04.11.00@gmail.com
+                                            </li>
+                                            <li class="contacts_item discord"><a class="discord_link"
+                                                    href="https://discordapp.com/users/921383993801338950/" target="_blank">My Discord</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section_profile_photo"></div>
+                </section>
+                <section class="section section_aboutmyself" id="about_myself">
+                            <div class="about_myself">
+                                <h2 class="title_about_myself">About myself:</h2>                    
+                                     <p class="text">I work as a compressor operator at a carbon-factory. I am 25 years old. I'm starding programming. I want to change my life.</p>
+                            </div>  
+                </section>
+                <section class="section section_skills" id="my_skills">
+                            <div class="block_skills">
+                            <h2>My skills:</h2>
+                                <ul class="list_myskills"> 
+                                    <li class="skills_item"><a href="https://ru.code-basics.com/#/html" target="blanks">HTML</a></li>
+                                    <li class="skills_item"><a href="https://ru.code-basics.com/#/css" target="blanks">CSS</a></li>
+                                    <li class="skills_item">DevTools</li>
+                                    <li class="skills_item">Visual Studio Code</li>
+                                    <li class="skills_item">Git</li>
+                                    <li class="skills_item ">Java Script Basic</li>
+                                </ul>
+                            </div>
+                </section>
+                <section class="section section_code" id="my_code">
+                          <div class="block_my_code">
+                                <h2 class ="subtitle">My code:</h2>
+                                <div class="block_code">
+                                    <pre class="pre_block">
+                                    <code class="code"> const learning = {
+                                        'Lerning JS': true,
+                                        old: 25,
+                                        sayHi: function(){
+                                        alert('Helo, I'm going through the 0 stage');
+                                        },
+                                        }
+                                        console.log(sayHi);
+                                    </code>
+                                    </pre>
+                                </div>
+                          </div>
+                </section>
+                <section class="section section_experience" id="experience">
+                            <div class="block_experience"> 
+                                <h2 class="subtitle">My work experience:</h2>
+                                <p class ="text_experience">
+                                   I'm passing the 0 stage at rs-school.
+                                    But still ahead!
+                                </p>
+                            </div>
+                </section>
+                <section class="section section_education" id="education">
+                            <div class="block_education">
+                              <h2 class="subtitle">Education:</h2>
+                                <ul class="list_education">
+                                    <li class="item_education">2016-2021 <br> Belarusian State University of Food and Chemical Technologies<br>
+                                        Low Temperature Engineering <br>
+                                        Refrigerating Machines and Installations
+                                    </li>
+                                    <li class="list_item_education">2012-2021 <br> Mogilev State Technological College<br> Low Temperature Technology </li>
+                                </ul>
+                            </div>
+                </section>
+                <section class="section section_languages" id="languages">
+                            <div class="list languages">
+                              <h2>Languages:</h2>
+                                <ul class="list_languages">
+                                    <li class="languages_item">- English - A1 and yandex translate</li>
+                                    <li class="languages_item">- Russian - native speaker</li>
+                                    <li class="languages_item">- Belarusian - native speaker</li>
+                                </ul>
+                            </div>
+                </section>
+            </div>
+    </main>
+    <footer class="footer">
+            <div class="container footer_container">
+                <ul class="footer_list">
+                    <li class="footer_item text_date">2022</li>
+                    <li class="footer_item text_git"><a href="https://github.com/WilliamForest" class="link_Git"><img class ="logo" src="assets/ico/github-60px.svg" alt="logo-gitHub"> </a>WilliamForest</li>
+                    <li class="footer_item footer_logo"><a href="http://rs.school/js/"><img class ="logo" src="assets/ico/rs-WHITE.svg" alt="logo-Rsschool"></a></li>
+                </ul>
+            </div>
+    </footer>        
 </body>
 </html>
