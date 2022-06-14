@@ -1,5 +1,7 @@
 # Mikhail Belenchenko
+
 ---
+
 ## Contact me
 
 My telephone number: +375291097169
@@ -10,10 +12,10 @@ VK:  [WilliamForest](https://vk.com/williamforest)
 
 Discord: [Mikhail(@WilliamForest)](https://discordapp.com/users/921383993801338950/)
 
-
 ---
 
 ## About myself
+
 ---
 
 I work as a compressor operator at a _carbon factory_. I am 25 years old. I recently started learning JS.
@@ -23,8 +25,11 @@ ___BUT!___
 I want to improve my life for the better through programming. I'm starting from scratch, it's very difficult for me, but very interesting.
 
 ---
-## My skils:
+
+## My skils
+
 ---
+
 - html
 - CSS
 - DevTools
@@ -32,8 +37,10 @@ I want to improve my life for the better through programming. I'm starting from 
 - Visual Studio Code
 - Git
 
-##  
-~~~ 
+## My code
+
+~~~
+
 const learning = {
 'Lerning JS': true,
 old: 25,
@@ -43,8 +50,9 @@ alert('Helo, I'm going through the 0 stage');
 }
 
 ~~~
----
-## Experience:
+
+## Experience
+
 ---
 
 - Completion of training on a free [site](https://ru.code-basics.com/) for 11 hours in html;
@@ -52,17 +60,16 @@ alert('Helo, I'm going through the 0 stage');
 - CodeWars kuy 7
 
 ## My work experience - 0
-...is passing the 0 stage at rs-school. 
+
+...is passing the 0 stage at rs-school.
 But still ahead!
 
+## Education
 
-## Education:
 ___low temperature mechanical enginee___
 
-### Languages:
+### Languages
+
 - English - A1 and yandex translate
 - Russian - native speaker
 - Belarusian - native speaker
-
-
- 
