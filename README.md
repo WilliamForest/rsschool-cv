@@ -1,1 +1,1 @@
-https://WilliamForest.github.io/rsschool-cv/cv
+https://WilliamForest.github.io/rsschool-cv/
