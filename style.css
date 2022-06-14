@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto/Roboto-Light.ttf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Podkova';
+    src: url("assets/fonts/Podkova/static/Podkova-Bold.ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Podkova';
+    src: url("assets/fonts/Podkova/static/Podkova-Regular.ttf");
+    font-weight: 400;
+  }
+* {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  li, ul, a{
+    list-style: none;
+      text-decoration: none;
+      font-family:Roboto;
+      font-size: 20px;
+      font-weight: 300;
+      color:black;
+  }
+  a:hover {
+   font-size: 28px;
+  }
+  body {
+      min-height: 100vh;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 300;
+      color: black;
+  }
+  h2 {
+    text-align: center;
+    font-family:Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    color:black;
+  }
+  h3 {
+    font-family:Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    color:black;
+  }
+  code {
+    align-items: left;
+    font-family:Podkova;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+  }
+  p {
+    align-items: center;
+    font-family:Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    color:black;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav_list {
+      list-style: none;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      padding: 0 20px;
+      line-height: 60px;
+  }
+  .nav_link {
+      font-family: Roboto;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;    
+  }
+  .nav_link:hover {
+    font-size: 28px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.nav_link:active {
+    background-color: white;
+}
+  .header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #040404;
+  }
+  .section {
+    padding: 0 50px;
+  }
+  .section:not(:first-child) {
+    width: 50%;
+    box-shadow: 5px 10px 20px 3px gray;
+
+  }
+  /* ----------------------------------------------MAIN--------------------------------------------------------------------------------------- */
+ .main{
+   width: 100%;
+   margin: 100px 0 0 0;
+ }
+ .main_container{
+   width: 1440px;
+   display: flex;
+   flex-wrap:wrap;
+
+ }
+  .section_profile {
+    padding: auto;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #040404;
+  }
+  /* -------------------------------------------------PROFILE--------------------------------------------------------------------------------- */
+  .main_title{ 
+    align-items: left;
+    font-family: Podkova;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;   
+  }
+
+.section_subtitle{
+    margin: 50px 0 50px 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Podkova;
+    font-size: 36px;
+    font-weight: 300;
+    color: white;  
+    /* border: 1px solid blue; */
+}
+.subtitle_contact {
+  margin: 0 0 50px 0;
+  padding: 0 60px;
+  text-align: left;
+  font-family: Podkova;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.section_profile_photo {
+  width: 50%;
+  margin: 0 0 0 200px;
+  background-image: url('assets/img/avatar.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.profile_image {
+  padding: 0px;
+  max-height: 700px;
+  /* min-height: 200px; */
+}
+.contacts_list {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0 60px;
+}
+.contacts_item {
+  align-items: center;
+  height: 50px;
+  margin-top: 20px;
+  padding: 0 0 0 45px;
+  font-family: Podkova;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+.contacts_item a{
+  text-decoration: none;
+  font-family: Podkova;
+  font-weight: 300;
+  color: white;
+}
+.phone {
+  background-image: url('assets/ico/phone-30px.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 30px;  
+}
+.number:hover{
+  font-size: 28px;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+}
+.vk{
+  background-image: url('assets/ico/VK-30px.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.vkontakte:hover{
+  font-size: 28px;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+}
+.mail {
+  background-image: url('assets/ico/mail-30px.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.discord {
+  background-image: url('assets/ico/discord-30px.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.discord_link:hover {
+  font-size: 28px;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+}
+.footer {
+  align-items: center;
+  background-color: #040404;
+}
+.footer_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  line-height: 60px;
+}
+
+.text_date {
+  align-items: center;
+  font-family:Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  color:white;
+}
+.footer_info{
+  padding-left: 50px ;
+  margin: 50px 0 0 0;
+  font-family: Roboto;
+  color: white; 
+  font-size: 18px;;
+  text-decoration: none;
+}
+.text_git {
+  align-items: center;
+  text-align: center;
+  font-family:Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  color:white;
+}
+.logo:hover {
+background-color: rgba(128, 128, 128, 0.568);
+}
+.footer_info a {
+  font-family: Roboto;
+  color: white; 
+  font-size: 18px;;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.footer_item{
+  font-family: Roboto;
+  color: white; 
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
