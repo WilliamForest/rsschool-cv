@@ -79,7 +79,7 @@
     color:black;
   }
   
-  .container {
+  ._container {
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -162,7 +162,6 @@
     font-size: 36px;
     font-weight: 300;
     color: white;  
-    /* border: 1px solid blue; */
 }
 .subtitle_contact {
   margin: 0 0 50px 0;
@@ -172,7 +171,6 @@
   font-weight: 400;
   font-size: 30px;
   color: white;
-  /* border: 1px solid white; */
 }
 .section_profile_photo {
   width: 50%;
@@ -185,7 +183,6 @@
 .profile_image {
   padding: 0px;
   max-height: 700px;
-  /* min-height: 200px; */
 }
 .contacts_list {
   list-style: none;
